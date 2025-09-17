@@ -1,0 +1,34 @@
+[font]
+size = 6.5
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[colors.primary]
+background = "#212121"
+
+[window]
+padding = { x = 15, y = 5 }
+opacity = 1
+title = "Alacritty"
+
+[cursor]
+blink_interval = 500
+blink_timeout = 0
+
+[cursor.style]
+shape = "Block"
+blinking = "Always"
