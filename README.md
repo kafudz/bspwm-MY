@@ -1,2 +1,2 @@
 # bspwm-MY
-config
+config backup
