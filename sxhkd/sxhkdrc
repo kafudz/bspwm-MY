@@ -8,11 +8,11 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run -b -i -p " > " -fn "JetBrainsMono Nerd Font Mono"
-
-super + n
-	rofi -modi window#drun#run#ssh#combi -show drun
+	dmenu_run -b -i -p "  " -fn "JetBrainsMono Nerd Font Mono 12"
 	
+super + n
+	rofi -modi window#drun#run#ssh#combi -font "JetBrainsMono Nerd Font Propo 12" -show drun
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
