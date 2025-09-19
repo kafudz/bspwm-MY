@@ -15,16 +15,16 @@ bspc config gapless_monocle      true
 bspc rule -a Nitrogen desktop='^3' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
 bspc rule -a mpv state=floating
-bspc rule -a Thunar state=floating
+bspc rule -a nwg-look state=floating
 bspc rule -a Xarchiver focus=on state=floating
 bspc rule -a Android-File-Transfer state=floating
 bspc rule -a Screenkey manage=off
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+xsetroot -cursor_name left_ptr &
 polybar -r &
 nm-applet &
 xfce4-power-manager &
 dunst &
-xsetroot -cursor_name left_ptr &
 nitrogen --restore &
 picom &
