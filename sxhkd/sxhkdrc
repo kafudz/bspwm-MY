@@ -13,6 +13,9 @@ super + @space
 super + m
 	rofi -modi window#drun#run#ssh#combi -font "JetBrainsMono Nerd Font" -show drun
 
+super + o
+    rofi -modi window#drun#run#ssh#combi -font "JetBrainsMono Nerd Font" -show run
+
 super + p
 	rofi -modi emoji -show emoji
 	
